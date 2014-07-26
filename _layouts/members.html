@@ -8,7 +8,7 @@
   <ol class="carousel-indicators">
   {% assign i = 0 %}
   {% for photo in site.data.groups %}
-    <li data-target="#Group_photos" data-slide-to="{{i}}" {% if i==0 %} class="active" {% endif %}></li>
+    <li data-target="#Group_photos" data-slide-to="{{i}}" {% if i == 0 %} class="active" {% endif %}></li>
   {% assign i = 1 %}
   {% endfor %}
   </ol>
@@ -16,7 +16,7 @@
   	{% assign i = 0 %}
     {% for photo in site.data.groups %}
     <div class="item {% if i == 0 %}active{% endif %}">
-       <img class="img-responsive center-block" src={{photo.source}} alt={{photo.alt}}> 
+       <img class="img-responsive center-block" src="{{photo.source}}" alt="{{photo.alt}}"> 
     </div>
     {% assign i = 1 %}
     {% endfor %}
