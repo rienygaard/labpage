@@ -1,6 +1,30 @@
 {% include header.html %}
 
-<img class="img-responsive center-block" src="/static/img/members/fraser_lab_illustrated.png">
+<!-- <img class="img-responsive center-block" src="/static/img/members/fraser_lab_illustrated.png"> -->
+<!-- Replaced with carousel below -->
+<!-- Carousel -->
+<div id="Group_photos" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+  {% assign i = 0 %}
+  {% for photo in site.data.groups %}
+    <li data-target="#Group_photos" data-slide-to="{{i}}" {% if i==0 %} class="active" {% endif %}></li>
+  {% assign i = 1 %}
+  {% endfor %}
+  </ol>
+  <div class="carousel-inner">
+  	{% assign i = 0 %}
+    {% for photo in site.data.groups %}
+    <div class="item {% if i == 0 %}active{% endif %}">
+       <img class="img-responsive center-block" src={{photo.source}} alt={{photo.alt}}> 
+    </div>
+    {% assign i = 1 %}
+    {% endfor %}
+  </div>
+  <a class="left carousel-control" href="#Group_photos" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#Group_photos" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+
 <div class="row-fluid">
     <div class="col-sm-8">
         {{ content }}
