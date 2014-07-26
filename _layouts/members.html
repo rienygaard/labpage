@@ -3,7 +3,7 @@
 <!-- <img class="img-responsive center-block" src="/static/img/members/fraser_lab_illustrated.png"> -->
 <!-- Replaced with carousel below -->
 <!-- Carousel -->
-<div id="Group_photos" class="carousel slide" data-ride="carousel">
+<div id="Group_photos" class="carousel slide container" data-interval="false">
   <!-- Indicators -->
   <ol class="carousel-indicators">
   {% assign i = 0 %}
@@ -16,7 +16,7 @@
   	{% assign i = 0 %}
     {% for photo in site.data.groups %}
     <div class="item {% if i == 0 %}active{% endif %}">
-       <img class="img-responsive center-block" src="{{photo.source}}" alt="{{photo.alt}}"> 
+       <img class="img-responsive center-block" src="{{photo.source}}" alt="{{photo.alt}}" height="100%"> 
     </div>
     {% assign i = 1 %}
     {% endfor %}
