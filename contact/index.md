@@ -1,10 +1,10 @@
 ---
-title: Contact the Fraser Lab
+title: Contact the Mancia Lab
 layout: default
 group: contact
 ---
 
-# Contact the Fraser Lab
+# Contact the Mancia Lab
 
 
 <div class="row">
@@ -12,13 +12,13 @@ group: contact
 <div class="col-md-4">
 
   <h4>Lab Area </h4>
-  tel: 415 502 3488
+  tel: 212
 
 </div>
 
 <div class="col-md-4">
 
-  <h4>James Fraser</h4>
+  <h4>Filippo Mancia</h4>
   Associate Professor  <br>
   Department of Bioengineering and Therapeutic Sciences  <br>
   California Institute of Quantitative Biosciences (QB3)  <br>
