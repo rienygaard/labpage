@@ -20,19 +20,19 @@ group: contact
 
   <h4>Filippo Mancia</h4>
   Associate Professor  <br>
-  Department of Bioengineering and Therapeutic Sciences  <br>
-  California Institute of Quantitative Biosciences (QB3)  <br>
-  email: jfraser (at) fraserlab.com <br>
-  tel: 415 502 1863
+  Department of Physiology   <br>
+  Columbia University  <br>
+  email: fm123@cumc.columbia.edu   <br>
+  tel: 212 ghskdghkj
 
 </div>
 
 <div class="col-md-4">
 
-  <h4> Hilary Smith Mahon</h4>
-  Administrative Assistant to Dr. James Fraser and  others<br>
-  Department of Bioengineering and Therapeutic Sciences  <br>
-  Email:  Hilary.SmithMahon (at) ucsf.edu  <br>
+  <h4> admin</h4>
+  admin<br>
+  admin  <br>
+  Email:  admin  <br>
   Phone: 415 476-1947   <br>
 
 </div>
